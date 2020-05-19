@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OurInitiativeViewController" customModule="Quran247" customModuleProvider="target">
+            <connections>
+                <outlet property="stackView" destination="roo-Zb-fPs" id="kuM-jj-gh6"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="view1" destination="NkB-qq-cGb" id="Clu-mL-R8j"/>
+                <outlet property="view11" destination="Jt4-JN-Jfb" id="gGz-d6-DGr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PRn-8d-dkG">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="roo-Zb-fPs">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1800"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NkB-qq-cGb">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="141"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jt4-JN-Jfb" userLabel="View11">
+                                            <rect key="frame" x="3" y="5" width="408" height="136"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9go-a0-vf7">
+                                                    <rect key="frame" x="10" y="0.0" width="398" height="131"/>
+                                                    <string key="text">The Dawahnigeria project is a huge initative crafted to address the present and future needs of Nigerian Muslims. Our goal, as a body, is to expand the frontiers of IT in the propagation of Islam. The dynamic nature of IT imposes dynamism on our methodology. Below are some of our projects:</string>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <constraints>
+                                                <constraint firstItem="9go-a0-vf7" firstAttribute="top" secondItem="Jt4-JN-Jfb" secondAttribute="top" id="K6Z-00-7C4"/>
+                                                <constraint firstAttribute="trailing" secondItem="9go-a0-vf7" secondAttribute="trailing" id="YzQ-zg-Xvu"/>
+                                                <constraint firstItem="9go-a0-vf7" firstAttribute="leading" secondItem="Jt4-JN-Jfb" secondAttribute="leading" constant="10" id="dQr-uV-Gm1"/>
+                                                <constraint firstAttribute="bottom" secondItem="9go-a0-vf7" secondAttribute="bottom" constant="5" id="kkW-Ko-vVP"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Jt4-JN-Jfb" firstAttribute="leading" secondItem="NkB-qq-cGb" secondAttribute="leading" constant="3" id="8Rd-nm-ZZ8"/>
+                                        <constraint firstAttribute="trailing" secondItem="Jt4-JN-Jfb" secondAttribute="trailing" constant="3" id="ARN-zX-B3j"/>
+                                        <constraint firstItem="Jt4-JN-Jfb" firstAttribute="top" secondItem="NkB-qq-cGb" secondAttribute="top" constant="5" id="UWd-LF-0tV"/>
+                                        <constraint firstAttribute="bottom" secondItem="Jt4-JN-Jfb" secondAttribute="bottom" id="gIf-4H-D6w"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wan-WD-A6y" userLabel="View2">
+                                    <rect key="frame" x="0.0" y="151" width="414" height="140.5"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tXh-MS-cnH">
+                                            <rect key="frame" x="3" y="3" width="408" height="137.5"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xsi-II-o7E">
+                                                    <rect key="frame" x="10" y="7" width="122" height="30"/>
+                                                    <state key="normal" title="Quranopedia.com">
+                                                        <color key="titleColor" red="0.20392156859999999" green="0.6588235294" blue="0.043137254899999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="showQuran:" destination="-1" eventType="touchUpInside" id="Gvn-cZ-gnp"/>
+                                                    </connections>
+                                                </button>
+                                                <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qtK-et-Jzm">
+                                                    <rect key="frame" x="0.0" y="44" width="408" height="1"/>
+                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="HGS-tf-H13"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RRz-cD-xyR">
+                                                    <rect key="frame" x="10" y="54" width="395" height="53.5"/>
+                                                    <string key="text">A huge initiative, in its first phase, to bring the Quran closer to people, with a vision of becomig an encyclopedia of the Quran.</string>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <constraints>
+                                                <constraint firstItem="RRz-cD-xyR" firstAttribute="leading" secondItem="tXh-MS-cnH" secondAttribute="leading" constant="10" id="28P-40-tVb"/>
+                                                <constraint firstAttribute="trailing" secondItem="qtK-et-Jzm" secondAttribute="trailing" id="L7i-KQ-5xp"/>
+                                                <constraint firstAttribute="trailing" secondItem="RRz-cD-xyR" secondAttribute="trailing" constant="3" id="Rbd-dK-76M"/>
+                                                <constraint firstItem="xsi-II-o7E" firstAttribute="leading" secondItem="tXh-MS-cnH" secondAttribute="leading" constant="10" id="Vtf-mw-HGW"/>
+                                                <constraint firstItem="qtK-et-Jzm" firstAttribute="top" secondItem="xsi-II-o7E" secondAttribute="bottom" constant="7" id="g8g-X9-aYP"/>
+                                                <constraint firstItem="qtK-et-Jzm" firstAttribute="leading" secondItem="tXh-MS-cnH" secondAttribute="leading" id="iIz-IV-tY3"/>
+                                                <constraint firstItem="RRz-cD-xyR" firstAttribute="top" secondItem="qtK-et-Jzm" secondAttribute="bottom" constant="9" id="naz-WX-iJ6"/>
+                                                <constraint firstItem="xsi-II-o7E" firstAttribute="top" secondItem="tXh-MS-cnH" secondAttribute="top" constant="7" id="w7k-z3-VQG"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="tXh-MS-cnH" firstAttribute="top" secondItem="Wan-WD-A6y" secondAttribute="top" constant="3" id="4mX-rD-9lT"/>
+                                        <constraint firstAttribute="bottom" secondItem="tXh-MS-cnH" secondAttribute="bottom" id="5vl-u4-UFq"/>
+                                        <constraint firstItem="tXh-MS-cnH" firstAttribute="leading" secondItem="Wan-WD-A6y" secondAttribute="leading" constant="3" id="9st-ew-Lrw"/>
+                                        <constraint firstAttribute="trailing" secondItem="tXh-MS-cnH" secondAttribute="trailing" constant="3" id="Pj0-TX-CTW"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xuR-ac-fwM" userLabel="View3">
+                                    <rect key="frame" x="0.0" y="301.5" width="414" height="141"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UAJ-85-ZUF">
+                                            <rect key="frame" x="3" y="3" width="408" height="138"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0M-ra-VTr">
+                                                    <rect key="frame" x="10" y="7" width="101" height="30"/>
+                                                    <state key="normal" title="DeenQuiz.com">
+                                                        <color key="titleColor" red="0.20392156859999999" green="0.6588235294" blue="0.043137254899999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="showDeenQuiz:" destination="-1" eventType="touchUpInside" id="Q7N-IM-b56"/>
+                                                    </connections>
+                                                </button>
+                                                <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ny4-mH-Bmk">
+                                                    <rect key="frame" x="0.0" y="44" width="408" height="1"/>
+                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="x3e-6T-rZr"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dv9-0X-jwx">
+                                                    <rect key="frame" x="10" y="54" width="395" height="53.5"/>
+                                                    <string key="text">A quiz app with almost 400 objective questions (easy, itermediate and advannced), with answers and little explanation on various areas of Islamic field of knowledge.</string>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <constraints>
+                                                <constraint firstItem="dv9-0X-jwx" firstAttribute="top" secondItem="Ny4-mH-Bmk" secondAttribute="bottom" constant="9" id="0r0-Rf-ltb"/>
+                                                <constraint firstItem="n0M-ra-VTr" firstAttribute="leading" secondItem="UAJ-85-ZUF" secondAttribute="leading" constant="10" id="5ck-da-elI"/>
+                                                <constraint firstItem="dv9-0X-jwx" firstAttribute="leading" secondItem="UAJ-85-ZUF" secondAttribute="leading" constant="10" id="6t5-AM-YVU"/>
+                                                <constraint firstItem="Ny4-mH-Bmk" firstAttribute="top" secondItem="n0M-ra-VTr" secondAttribute="bottom" constant="7" id="BuL-yG-jmA"/>
+                                                <constraint firstItem="n0M-ra-VTr" firstAttribute="top" secondItem="UAJ-85-ZUF" secondAttribute="top" constant="7" id="dO5-zd-sKa"/>
+                                                <constraint firstItem="Ny4-mH-Bmk" firstAttribute="leading" secondItem="UAJ-85-ZUF" secondAttribute="leading" id="lfX-tF-GGe"/>
+                                                <constraint firstAttribute="trailing" secondItem="dv9-0X-jwx" secondAttribute="trailing" constant="3" id="mPM-EB-5u7"/>
+                                                <constraint firstAttribute="trailing" secondItem="Ny4-mH-Bmk" secondAttribute="trailing" id="y5S-I9-fYR"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="UAJ-85-ZUF" firstAttribute="top" secondItem="xuR-ac-fwM" secondAttribute="top" constant="3" id="1hb-rz-GqW"/>
+                                        <constraint firstItem="UAJ-85-ZUF" firstAttribute="leading" secondItem="xuR-ac-fwM" secondAttribute="leading" constant="3" id="Iof-UR-zZg"/>
+                                        <constraint firstAttribute="bottom" secondItem="UAJ-85-ZUF" secondAttribute="bottom" id="KFE-O9-J0b"/>
+                                        <constraint firstAttribute="trailing" secondItem="UAJ-85-ZUF" secondAttribute="trailing" constant="3" id="mR6-4l-BIG"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="psR-Lo-ela" userLabel="View4">
+                                    <rect key="frame" x="0.0" y="452.5" width="414" height="141"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cs4-KC-KwK">
+                                            <rect key="frame" x="3" y="3" width="408" height="138"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWI-2F-Gac">
+                                                    <rect key="frame" x="10" y="7" width="140" height="30"/>
+                                                    <state key="normal" title="DN Highlight Project">
+                                                        <color key="titleColor" red="0.20392156859999999" green="0.6588235294" blue="0.043137254899999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="showProjects:" destination="-1" eventType="touchUpInside" id="uK4-yg-iKq"/>
+                                                    </connections>
+                                                </button>
+                                                <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PrW-S4-5Qw">
+                                                    <rect key="frame" x="0.0" y="44" width="408" height="1"/>
+                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="Jip-Qm-hYF"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwC-49-WHC">
+                                                    <rect key="frame" x="10" y="54" width="395" height="71"/>
+                                                    <string key="text">The Highlight project was initiated to deliver short audio daily reminders to the Ummah, especially those who might not be too comfortable with full dawahcast lectures due to time or bandwidth constant.</string>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <constraints>
+                                                <constraint firstItem="PrW-S4-5Qw" firstAttribute="top" secondItem="IWI-2F-Gac" secondAttribute="bottom" constant="7" id="8M7-qE-DIg"/>
+                                                <constraint firstItem="rwC-49-WHC" firstAttribute="top" secondItem="PrW-S4-5Qw" secondAttribute="bottom" constant="9" id="MDg-nL-pnK"/>
+                                                <constraint firstAttribute="trailing" secondItem="PrW-S4-5Qw" secondAttribute="trailing" id="MM7-K7-pao"/>
+                                                <constraint firstItem="IWI-2F-Gac" firstAttribute="leading" secondItem="Cs4-KC-KwK" secondAttribute="leading" constant="10" id="feT-Zm-1xH"/>
+                                                <constraint firstAttribute="trailing" secondItem="rwC-49-WHC" secondAttribute="trailing" constant="3" id="fpC-4U-Xi0"/>
+                                                <constraint firstItem="IWI-2F-Gac" firstAttribute="top" secondItem="Cs4-KC-KwK" secondAttribute="top" constant="7" id="kdQ-4w-iqx"/>
+                                                <constraint firstItem="PrW-S4-5Qw" firstAttribute="leading" secondItem="Cs4-KC-KwK" secondAttribute="leading" id="tUE-yf-67t"/>
+                                                <constraint firstItem="rwC-49-WHC" firstAttribute="leading" secondItem="Cs4-KC-KwK" secondAttribute="leading" constant="10" id="wvi-Aw-OXe"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Cs4-KC-KwK" firstAttribute="top" secondItem="psR-Lo-ela" secondAttribute="top" constant="3" id="1oR-ar-bI9"/>
+                                        <constraint firstAttribute="bottom" secondItem="Cs4-KC-KwK" secondAttribute="bottom" id="Za8-zw-Cg4"/>
+                                        <constraint firstAttribute="trailing" secondItem="Cs4-KC-KwK" secondAttribute="trailing" constant="3" id="eby-db-CZZ"/>
+                                        <constraint firstItem="Cs4-KC-KwK" firstAttribute="leading" secondItem="psR-Lo-ela" secondAttribute="leading" constant="3" id="lA9-zH-Zwy"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CDB-td-xJM" userLabel="View5">
+                                    <rect key="frame" x="0.0" y="603.5" width="414" height="140.5"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MQw-s2-347">
+                                            <rect key="frame" x="3" y="3" width="408" height="137.5"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OvQ-6h-MPt">
+                                                    <rect key="frame" x="10" y="7" width="122" height="30"/>
+                                                    <state key="normal" title="DN Dawahcast(R)">
+                                                        <color key="titleColor" red="0.20392156859999999" green="0.6588235294" blue="0.043137254899999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="showDawahCast:" destination="-1" eventType="touchUpInside" id="heC-yj-Wca"/>
+                                                    </connections>
+                                                </button>
+                                                <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L1w-do-k5H">
+                                                    <rect key="frame" x="0.0" y="44" width="408" height="1"/>
+                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="eqY-bx-PDf"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Provision of lecture in audio format of more than 30 resource persons in 5 languages (English, Hausa, Igbo, Ebira &amp; Yoruba)" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXn-Ls-GGW">
+                                                    <rect key="frame" x="10" y="54" width="395" height="53.5"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <constraints>
+                                                <constraint firstItem="L1w-do-k5H" firstAttribute="top" secondItem="OvQ-6h-MPt" secondAttribute="bottom" constant="7" id="EyF-2M-kdA"/>
+                                                <constraint firstItem="L1w-do-k5H" firstAttribute="leading" secondItem="MQw-s2-347" secondAttribute="leading" id="FVg-vQ-FDB"/>
+                                                <constraint firstAttribute="trailing" secondItem="bXn-Ls-GGW" secondAttribute="trailing" constant="3" id="LnT-zK-VPe"/>
+                                                <constraint firstAttribute="trailing" secondItem="L1w-do-k5H" secondAttribute="trailing" id="MR0-Ye-j2h"/>
+                                                <constraint firstItem="bXn-Ls-GGW" firstAttribute="top" secondItem="L1w-do-k5H" secondAttribute="bottom" constant="9" id="S49-Oy-pm4"/>
+                                                <constraint firstItem="bXn-Ls-GGW" firstAttribute="leading" secondItem="MQw-s2-347" secondAttribute="leading" constant="10" id="UBX-RK-Kmp"/>
+                                                <constraint firstItem="OvQ-6h-MPt" firstAttribute="top" secondItem="MQw-s2-347" secondAttribute="top" constant="7" id="uCZ-So-krv"/>
+                                                <constraint firstItem="OvQ-6h-MPt" firstAttribute="leading" secondItem="MQw-s2-347" secondAttribute="leading" constant="10" id="w5R-J7-Ls8"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="MQw-s2-347" secondAttribute="trailing" constant="3" id="AU5-ef-9KB"/>
+                                        <constraint firstAttribute="bottom" secondItem="MQw-s2-347" secondAttribute="bottom" id="LgJ-f2-6Le"/>
+                                        <constraint firstItem="MQw-s2-347" firstAttribute="top" secondItem="CDB-td-xJM" secondAttribute="top" constant="3" id="hKE-tr-hGi"/>
+                                        <constraint firstItem="MQw-s2-347" firstAttribute="leading" secondItem="CDB-td-xJM" secondAttribute="leading" constant="3" id="hsA-3D-FPf"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Lh-ct-E6m" userLabel="View6">
+                                    <rect key="frame" x="0.0" y="754" width="414" height="141"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gN8-dF-rdm">
+                                            <rect key="frame" x="3" y="3" width="408" height="138"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9fz-za-4Z3">
+                                                    <rect key="frame" x="10" y="7" width="78" height="30"/>
+                                                    <state key="normal" title="DN Articles">
+                                                        <color key="titleColor" red="0.20392156859999999" green="0.6588235294" blue="0.043137254899999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="showArticles:" destination="-1" eventType="touchUpInside" id="GAo-FC-RQ2"/>
+                                                    </connections>
+                                                </button>
+                                                <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qAy-p1-e8m">
+                                                    <rect key="frame" x="0.0" y="44" width="408" height="1"/>
+                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="EgP-Dk-SFw"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hfs-4i-du0">
+                                                    <rect key="frame" x="10" y="54" width="395" height="53.5"/>
+                                                    <string key="text">Provision of quality articles from various sources. The well tagged articles cover almost 70 topic areas relevant to both Muslims and non-Muslims.</string>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <constraints>
+                                                <constraint firstItem="qAy-p1-e8m" firstAttribute="top" secondItem="9fz-za-4Z3" secondAttribute="bottom" constant="7" id="9LE-VG-gL4"/>
+                                                <constraint firstItem="9fz-za-4Z3" firstAttribute="leading" secondItem="gN8-dF-rdm" secondAttribute="leading" constant="10" id="FS9-sT-hCl"/>
+                                                <constraint firstAttribute="trailing" secondItem="qAy-p1-e8m" secondAttribute="trailing" id="Jat-TN-H4m"/>
+                                                <constraint firstAttribute="trailing" secondItem="Hfs-4i-du0" secondAttribute="trailing" constant="3" id="QmH-zW-yBK"/>
+                                                <constraint firstItem="Hfs-4i-du0" firstAttribute="top" secondItem="qAy-p1-e8m" secondAttribute="bottom" constant="9" id="Uop-xW-PZA"/>
+                                                <constraint firstItem="9fz-za-4Z3" firstAttribute="top" secondItem="gN8-dF-rdm" secondAttribute="top" constant="7" id="ZTH-wf-7p7"/>
+                                                <constraint firstItem="Hfs-4i-du0" firstAttribute="leading" secondItem="gN8-dF-rdm" secondAttribute="leading" constant="10" id="kV4-QF-EwW"/>
+                                                <constraint firstItem="qAy-p1-e8m" firstAttribute="leading" secondItem="gN8-dF-rdm" secondAttribute="leading" id="nJe-dt-BRK"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="gN8-dF-rdm" firstAttribute="top" secondItem="0Lh-ct-E6m" secondAttribute="top" constant="3" id="EhS-kE-PEO"/>
+                                        <constraint firstAttribute="bottom" secondItem="gN8-dF-rdm" secondAttribute="bottom" id="GpM-fm-KDV"/>
+                                        <constraint firstAttribute="trailing" secondItem="gN8-dF-rdm" secondAttribute="trailing" constant="3" id="HP3-gW-BJA"/>
+                                        <constraint firstItem="gN8-dF-rdm" firstAttribute="leading" secondItem="0Lh-ct-E6m" secondAttribute="leading" constant="3" id="k3o-fa-pxL"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J76-9c-qIp" userLabel="View7">
+                                    <rect key="frame" x="0.0" y="905" width="414" height="141"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Df-ak-0oI">
+                                            <rect key="frame" x="3" y="3" width="408" height="138"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gne-Rq-b7V">
+                                                    <rect key="frame" x="10" y="7" width="72" height="30"/>
+                                                    <state key="normal" title="DN Qur'an">
+                                                        <color key="titleColor" red="0.20392156859999999" green="0.6588235294" blue="0.043137254899999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="showQuran2:" destination="-1" eventType="touchUpInside" id="h37-PA-0fI"/>
+                                                    </connections>
+                                                </button>
+                                                <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uau-sb-wXT">
+                                                    <rect key="frame" x="0.0" y="44" width="408" height="1"/>
+                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="5RF-2p-u3B"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Provision of qur'an recitations in various Nigerian intonations." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GeZ-ic-dVm">
+                                                    <rect key="frame" x="10" y="54" width="395" height="35.5"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <constraints>
+                                                <constraint firstItem="Uau-sb-wXT" firstAttribute="top" secondItem="Gne-Rq-b7V" secondAttribute="bottom" constant="7" id="8bA-x9-Puv"/>
+                                                <constraint firstItem="Gne-Rq-b7V" firstAttribute="leading" secondItem="6Df-ak-0oI" secondAttribute="leading" constant="10" id="AxF-du-yOb"/>
+                                                <constraint firstItem="Gne-Rq-b7V" firstAttribute="top" secondItem="6Df-ak-0oI" secondAttribute="top" constant="7" id="EEb-tA-Zuv"/>
+                                                <constraint firstItem="GeZ-ic-dVm" firstAttribute="leading" secondItem="6Df-ak-0oI" secondAttribute="leading" constant="10" id="IgG-h0-Pti"/>
+                                                <constraint firstItem="GeZ-ic-dVm" firstAttribute="top" secondItem="Uau-sb-wXT" secondAttribute="bottom" constant="9" id="IyQ-0w-M7I"/>
+                                                <constraint firstAttribute="trailing" secondItem="Uau-sb-wXT" secondAttribute="trailing" id="V3V-P1-LJ4"/>
+                                                <constraint firstAttribute="trailing" secondItem="GeZ-ic-dVm" secondAttribute="trailing" constant="3" id="a1h-w1-Lka"/>
+                                                <constraint firstItem="Uau-sb-wXT" firstAttribute="leading" secondItem="6Df-ak-0oI" secondAttribute="leading" id="lrO-r3-Bd7"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="6Df-ak-0oI" firstAttribute="leading" secondItem="J76-9c-qIp" secondAttribute="leading" constant="3" id="10w-O0-9Pa"/>
+                                        <constraint firstItem="6Df-ak-0oI" firstAttribute="top" secondItem="J76-9c-qIp" secondAttribute="top" constant="3" id="9GV-hV-lne"/>
+                                        <constraint firstAttribute="trailing" secondItem="6Df-ak-0oI" secondAttribute="trailing" constant="3" id="nhR-Yt-qo0"/>
+                                        <constraint firstAttribute="bottom" secondItem="6Df-ak-0oI" secondAttribute="bottom" id="u7I-2K-gys"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SoU-eP-1Kd" userLabel="View8">
+                                    <rect key="frame" x="0.0" y="1056" width="414" height="140.5"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jyH-oM-NNq">
+                                            <rect key="frame" x="3" y="3" width="408" height="137.5"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lLc-Md-FbJ">
+                                                    <rect key="frame" x="10" y="7" width="143" height="30"/>
+                                                    <state key="normal" title="DN e-Tafseer Project">
+                                                        <color key="titleColor" red="0.20392156859999999" green="0.6588235294" blue="0.043137254899999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="showTafseer:" destination="-1" eventType="touchUpInside" id="3ro-0c-Pjh"/>
+                                                    </connections>
+                                                </button>
+                                                <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vb2-3J-mBb">
+                                                    <rect key="frame" x="0.0" y="44" width="408" height="1"/>
+                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="iBN-ci-NES"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glP-fb-mu8">
+                                                    <rect key="frame" x="10" y="54" width="395" height="71"/>
+                                                    <string key="text">Initiative to enable people follow-up on daily tafseer sessions of numerious centers across the country. We started with 7 centers in Ramadan 1433AH and the number has been growinng sigificantly since then.</string>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="Vb2-3J-mBb" secondAttribute="trailing" id="07D-Ii-kOD"/>
+                                                <constraint firstItem="Vb2-3J-mBb" firstAttribute="leading" secondItem="jyH-oM-NNq" secondAttribute="leading" id="7s9-bi-HP6"/>
+                                                <constraint firstItem="lLc-Md-FbJ" firstAttribute="top" secondItem="jyH-oM-NNq" secondAttribute="top" constant="7" id="9gN-Ju-0uJ"/>
+                                                <constraint firstItem="glP-fb-mu8" firstAttribute="top" secondItem="Vb2-3J-mBb" secondAttribute="bottom" constant="9" id="D7z-Fh-2Xi"/>
+                                                <constraint firstItem="lLc-Md-FbJ" firstAttribute="leading" secondItem="jyH-oM-NNq" secondAttribute="leading" constant="10" id="Q6a-Jy-wzo"/>
+                                                <constraint firstAttribute="trailing" secondItem="glP-fb-mu8" secondAttribute="trailing" constant="3" id="nIr-M3-Oyt"/>
+                                                <constraint firstItem="Vb2-3J-mBb" firstAttribute="top" secondItem="lLc-Md-FbJ" secondAttribute="bottom" constant="7" id="qb7-JR-DUS"/>
+                                                <constraint firstItem="glP-fb-mu8" firstAttribute="leading" secondItem="jyH-oM-NNq" secondAttribute="leading" constant="10" id="vDo-xB-sax"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="jyH-oM-NNq" secondAttribute="trailing" constant="3" id="M5D-vd-o0A"/>
+                                        <constraint firstItem="jyH-oM-NNq" firstAttribute="leading" secondItem="SoU-eP-1Kd" secondAttribute="leading" constant="3" id="Vs6-uK-5w7"/>
+                                        <constraint firstItem="jyH-oM-NNq" firstAttribute="top" secondItem="SoU-eP-1Kd" secondAttribute="top" constant="3" id="of6-xW-wtI"/>
+                                        <constraint firstAttribute="bottom" secondItem="jyH-oM-NNq" secondAttribute="bottom" id="peX-q4-AxF"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XeB-gC-5Mg" userLabel="View9">
+                                    <rect key="frame" x="0.0" y="1206.5" width="414" height="141"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cuo-NX-ef2">
+                                            <rect key="frame" x="3" y="3" width="408" height="138"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="71i-0q-5No">
+                                                    <rect key="frame" x="10" y="7" width="126" height="30"/>
+                                                    <state key="normal" title="DN Qur'an Service">
+                                                        <color key="titleColor" red="0.20392156859999999" green="0.6588235294" blue="0.043137254899999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="showQuranService:" destination="-1" eventType="touchUpInside" id="68l-Ih-bAi"/>
+                                                    </connections>
+                                                </button>
+                                                <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iPy-Du-NO2">
+                                                    <rect key="frame" x="0.0" y="44" width="408" height="1"/>
+                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="0dQ-Z6-N4T"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4KK-ih-OUi">
+                                                    <rect key="frame" x="10" y="54" width="395" height="53.5"/>
+                                                    <string key="text">24/7 online Quran stations that stream quran from various Nigeria reciters. It is available on Adroid, iOS, and mobile-optimized Web version.</string>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <constraints>
+                                                <constraint firstItem="71i-0q-5No" firstAttribute="top" secondItem="Cuo-NX-ef2" secondAttribute="top" constant="7" id="4oK-q0-wkO"/>
+                                                <constraint firstItem="4KK-ih-OUi" firstAttribute="top" secondItem="iPy-Du-NO2" secondAttribute="bottom" constant="9" id="Ejn-uC-ZIJ"/>
+                                                <constraint firstItem="4KK-ih-OUi" firstAttribute="leading" secondItem="Cuo-NX-ef2" secondAttribute="leading" constant="10" id="Uue-AM-Pta"/>
+                                                <constraint firstAttribute="trailing" secondItem="iPy-Du-NO2" secondAttribute="trailing" id="YGJ-nk-sPe"/>
+                                                <constraint firstAttribute="trailing" secondItem="4KK-ih-OUi" secondAttribute="trailing" constant="3" id="YOT-hQ-suV"/>
+                                                <constraint firstItem="iPy-Du-NO2" firstAttribute="leading" secondItem="Cuo-NX-ef2" secondAttribute="leading" id="ma0-UN-sap"/>
+                                                <constraint firstItem="71i-0q-5No" firstAttribute="leading" secondItem="Cuo-NX-ef2" secondAttribute="leading" constant="10" id="nQj-jO-QkH"/>
+                                                <constraint firstItem="iPy-Du-NO2" firstAttribute="top" secondItem="71i-0q-5No" secondAttribute="bottom" constant="7" id="qjc-Cf-qHD"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Cuo-NX-ef2" firstAttribute="leading" secondItem="XeB-gC-5Mg" secondAttribute="leading" constant="3" id="2mi-hK-339"/>
+                                        <constraint firstAttribute="trailing" secondItem="Cuo-NX-ef2" secondAttribute="trailing" constant="3" id="T4V-D8-6bs"/>
+                                        <constraint firstAttribute="bottom" secondItem="Cuo-NX-ef2" secondAttribute="bottom" id="UvH-4r-zk9"/>
+                                        <constraint firstItem="Cuo-NX-ef2" firstAttribute="top" secondItem="XeB-gC-5Mg" secondAttribute="top" constant="3" id="jhY-0g-z0k"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="owL-lz-PIE" userLabel="View10">
+                                    <rect key="frame" x="0.0" y="1357.5" width="414" height="141"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NMP-VG-4KM">
+                                            <rect key="frame" x="3" y="3" width="408" height="138"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Du2-m3-jar">
+                                                    <rect key="frame" x="10" y="7" width="111" height="30"/>
+                                                    <state key="normal" title="DN Marketplace">
+                                                        <color key="titleColor" red="0.20392156859999999" green="0.6588235294" blue="0.043137254899999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="showMarketPlace:" destination="-1" eventType="touchUpInside" id="oD4-cF-MB6"/>
+                                                    </connections>
+                                                </button>
+                                                <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ymI-bA-WjI">
+                                                    <rect key="frame" x="0.0" y="44" width="408" height="1"/>
+                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="dQu-GM-3iq"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbf-oK-Kux">
+                                                    <rect key="frame" x="10" y="54" width="395" height="71"/>
+                                                    <string key="text">An online store to sell dawah works of various resource persons, magazine subscrptions etc. It is primarily for assisting and encouraging resource persons to publish and profit from their quality works.</string>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="ymI-bA-WjI" secondAttribute="trailing" id="6VH-cW-Trg"/>
+                                                <constraint firstItem="Du2-m3-jar" firstAttribute="leading" secondItem="NMP-VG-4KM" secondAttribute="leading" constant="10" id="AT4-Bz-MUt"/>
+                                                <constraint firstAttribute="trailing" secondItem="bbf-oK-Kux" secondAttribute="trailing" constant="3" id="HsF-27-1Vj"/>
+                                                <constraint firstItem="ymI-bA-WjI" firstAttribute="leading" secondItem="NMP-VG-4KM" secondAttribute="leading" id="Nyt-8e-Lsp"/>
+                                                <constraint firstItem="Du2-m3-jar" firstAttribute="top" secondItem="NMP-VG-4KM" secondAttribute="top" constant="7" id="QXU-q2-iTi"/>
+                                                <constraint firstItem="ymI-bA-WjI" firstAttribute="top" secondItem="Du2-m3-jar" secondAttribute="bottom" constant="7" id="VtU-kF-l0w"/>
+                                                <constraint firstItem="bbf-oK-Kux" firstAttribute="leading" secondItem="NMP-VG-4KM" secondAttribute="leading" constant="10" id="jOr-oW-JsS"/>
+                                                <constraint firstItem="bbf-oK-Kux" firstAttribute="top" secondItem="ymI-bA-WjI" secondAttribute="bottom" constant="9" id="tmg-CS-iVG"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="NMP-VG-4KM" secondAttribute="bottom" id="8TN-5f-ch8"/>
+                                        <constraint firstAttribute="trailing" secondItem="NMP-VG-4KM" secondAttribute="trailing" constant="3" id="G7n-t5-pkf"/>
+                                        <constraint firstItem="NMP-VG-4KM" firstAttribute="leading" secondItem="owL-lz-PIE" secondAttribute="leading" constant="3" id="S9I-bY-bgU"/>
+                                        <constraint firstItem="NMP-VG-4KM" firstAttribute="top" secondItem="owL-lz-PIE" secondAttribute="top" constant="3" id="d0H-XV-k19"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pWo-QY-7Q7" userLabel="View11">
+                                    <rect key="frame" x="0.0" y="1508.5" width="414" height="140.5"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uYT-df-1zk">
+                                            <rect key="frame" x="3" y="3" width="408" height="137.5"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQF-Cu-7Wl">
+                                                    <rect key="frame" x="10" y="7" width="89" height="30"/>
+                                                    <state key="normal" title="DN Directory">
+                                                        <color key="titleColor" red="0.20392156859999999" green="0.6588235294" blue="0.043137254899999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="showDirectory:" destination="-1" eventType="touchUpInside" id="APa-Zd-1de"/>
+                                                    </connections>
+                                                </button>
+                                                <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i8A-q8-BEq">
+                                                    <rect key="frame" x="0.0" y="44" width="408" height="1"/>
+                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="vbt-aN-FfK"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsE-zo-8Cn">
+                                                    <rect key="frame" x="10" y="54" width="395" height="53.5"/>
+                                                    <string key="text">It is a platform with an audacious mission to track and index infromation about numerous facets relevant to the deen of an average Nigerian Muslim.</string>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <constraints>
+                                                <constraint firstItem="eQF-Cu-7Wl" firstAttribute="top" secondItem="uYT-df-1zk" secondAttribute="top" constant="7" id="2N5-7l-UdG"/>
+                                                <constraint firstItem="eQF-Cu-7Wl" firstAttribute="leading" secondItem="uYT-df-1zk" secondAttribute="leading" constant="10" id="DrA-gN-1E9"/>
+                                                <constraint firstItem="i8A-q8-BEq" firstAttribute="top" secondItem="eQF-Cu-7Wl" secondAttribute="bottom" constant="7" id="RoI-hh-rsp"/>
+                                                <constraint firstItem="hsE-zo-8Cn" firstAttribute="leading" secondItem="uYT-df-1zk" secondAttribute="leading" constant="10" id="go4-Ps-9w1"/>
+                                                <constraint firstAttribute="trailing" secondItem="hsE-zo-8Cn" secondAttribute="trailing" constant="3" id="lHd-AO-p7p"/>
+                                                <constraint firstItem="i8A-q8-BEq" firstAttribute="leading" secondItem="uYT-df-1zk" secondAttribute="leading" id="pHQ-KU-1eJ"/>
+                                                <constraint firstItem="hsE-zo-8Cn" firstAttribute="top" secondItem="i8A-q8-BEq" secondAttribute="bottom" constant="9" id="vas-I3-CG2"/>
+                                                <constraint firstAttribute="trailing" secondItem="i8A-q8-BEq" secondAttribute="trailing" id="y2M-Bm-Kon"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="uYT-df-1zk" firstAttribute="top" secondItem="pWo-QY-7Q7" secondAttribute="top" constant="3" id="LDH-M7-2qe"/>
+                                        <constraint firstAttribute="bottom" secondItem="uYT-df-1zk" secondAttribute="bottom" id="YIK-HY-vPf"/>
+                                        <constraint firstItem="uYT-df-1zk" firstAttribute="leading" secondItem="pWo-QY-7Q7" secondAttribute="leading" constant="3" id="jjv-rO-GuQ"/>
+                                        <constraint firstAttribute="trailing" secondItem="uYT-df-1zk" secondAttribute="trailing" constant="3" id="m1G-k7-2cl"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M7X-a2-hpY" userLabel="View12">
+                                    <rect key="frame" x="0.0" y="1659" width="414" height="141"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NFr-P2-7a7">
+                                            <rect key="frame" x="3" y="3" width="408" height="138"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlz-dT-nJt">
+                                                    <rect key="frame" x="10" y="7" width="96" height="30"/>
+                                                    <state key="normal" title="DN Showcase">
+                                                        <color key="titleColor" red="0.20392156859999999" green="0.6588235294" blue="0.043137254899999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="showCase:" destination="-1" eventType="touchUpInside" id="2hl-0f-Uok"/>
+                                                    </connections>
+                                                </button>
+                                                <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iVv-m7-LT8">
+                                                    <rect key="frame" x="0.0" y="44" width="408" height="1"/>
+                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="KUc-1A-EHX"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQF-YM-J3B">
+                                                    <rect key="frame" x="10" y="54" width="395" height="71"/>
+                                                    <string key="text">Pinterest-like display of Islamic art, calligraphy, mosques and other beneficial images by NIGERIAN designers. Aims to be a central point for Nigerian designers who signup and upload their works.</string>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="iVv-m7-LT8" secondAttribute="trailing" id="FPc-j6-Mt7"/>
+                                                <constraint firstAttribute="trailing" secondItem="sQF-YM-J3B" secondAttribute="trailing" constant="3" id="PPI-Z3-H7e"/>
+                                                <constraint firstItem="iVv-m7-LT8" firstAttribute="top" secondItem="qlz-dT-nJt" secondAttribute="bottom" constant="7" id="UfH-59-FEK"/>
+                                                <constraint firstItem="sQF-YM-J3B" firstAttribute="leading" secondItem="NFr-P2-7a7" secondAttribute="leading" constant="10" id="YYB-Bs-VXq"/>
+                                                <constraint firstItem="qlz-dT-nJt" firstAttribute="leading" secondItem="NFr-P2-7a7" secondAttribute="leading" constant="10" id="b8u-Be-4xO"/>
+                                                <constraint firstItem="sQF-YM-J3B" firstAttribute="top" secondItem="iVv-m7-LT8" secondAttribute="bottom" constant="9" id="kRV-ze-iLH"/>
+                                                <constraint firstItem="qlz-dT-nJt" firstAttribute="top" secondItem="NFr-P2-7a7" secondAttribute="top" constant="7" id="uZP-gE-WTQ"/>
+                                                <constraint firstItem="iVv-m7-LT8" firstAttribute="leading" secondItem="NFr-P2-7a7" secondAttribute="leading" id="zdA-9D-XHS"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="NFr-P2-7a7" secondAttribute="trailing" constant="3" id="6qe-mF-rwR"/>
+                                        <constraint firstItem="NFr-P2-7a7" firstAttribute="leading" secondItem="M7X-a2-hpY" secondAttribute="leading" constant="3" id="BQD-QR-PoT"/>
+                                        <constraint firstItem="NFr-P2-7a7" firstAttribute="top" secondItem="M7X-a2-hpY" secondAttribute="top" constant="3" id="V1Z-t6-0vu"/>
+                                        <constraint firstAttribute="bottom" secondItem="NFr-P2-7a7" secondAttribute="bottom" id="hHk-eZ-4qm"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1800" id="USe-VE-Mbu"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="roo-Zb-fPs" firstAttribute="width" secondItem="PRn-8d-dkG" secondAttribute="width" id="29p-kF-4lQ"/>
+                        <constraint firstAttribute="trailing" secondItem="roo-Zb-fPs" secondAttribute="trailing" id="A6T-aI-H5s"/>
+                        <constraint firstAttribute="bottom" secondItem="roo-Zb-fPs" secondAttribute="bottom" id="Ts8-Ry-q5q"/>
+                        <constraint firstItem="roo-Zb-fPs" firstAttribute="top" secondItem="PRn-8d-dkG" secondAttribute="top" id="cLG-b5-PPr"/>
+                        <constraint firstItem="roo-Zb-fPs" firstAttribute="leading" secondItem="PRn-8d-dkG" secondAttribute="leading" id="yWS-kO-enF"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="PRn-8d-dkG" secondAttribute="trailing" id="1uI-vv-4hM"/>
+                <constraint firstItem="PRn-8d-dkG" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="3iI-EG-Cso"/>
+                <constraint firstItem="PRn-8d-dkG" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="H9b-XE-qZD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="PRn-8d-dkG" secondAttribute="bottom" id="sqq-Vg-e1R"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="107.8125"/>
+        </view>
+    </objects>
+</document>

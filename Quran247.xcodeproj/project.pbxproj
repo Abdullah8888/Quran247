@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B4A2162D093093F6C16B88C /* Pods_Quran247Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C9C4BF416539C8747467D1 /* Pods_Quran247Tests.framework */; };
+		9230E1F1CDD3C2BD1444E381 /* Pods_Quran247.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525BC5DCD90C59308B95A684 /* Pods_Quran247.framework */; };
+		C906B7F32471ABF7003817A8 /* BaseFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C906B7F22471ABF7003817A8 /* BaseFile.swift */; };
+		C917A24624697DCC0060B455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C917A24524697DCC0060B455 /* AppDelegate.swift */; };
+		C917A24824697DCC0060B455 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C917A24724697DCC0060B455 /* SceneDelegate.swift */; };
+		C917A24A24697DCC0060B455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C917A24924697DCC0060B455 /* ViewController.swift */; };
+		C917A24D24697DCC0060B455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C917A24B24697DCC0060B455 /* Main.storyboard */; };
+		C917A24F24697DCC0060B455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C917A24E24697DCC0060B455 /* Assets.xcassets */; };
+		C917A25224697DCC0060B455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C917A25024697DCC0060B455 /* LaunchScreen.storyboard */; };
+		C917A25D24697DCC0060B455 /* Quran247Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C917A25C24697DCC0060B455 /* Quran247Tests.swift */; };
+		C9A516D5246A0A8300DEC73C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A516D3246A0A8300DEC73C /* MenuViewController.swift */; };
+		C9A516D9246A190E00DEC73C /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A516D8246A190E00DEC73C /* SideMenuTransition.swift */; };
+		C9A51714246B780A00DEC73C /* MainViewReciterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A51712246B780A00DEC73C /* MainViewReciterCell.swift */; };
+		C9A51715246B780A00DEC73C /* MainViewReciterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A51713246B780A00DEC73C /* MainViewReciterCell.xib */; };
+		C9A51718246B792F00DEC73C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A51717246B792F00DEC73C /* MainViewModel.swift */; };
+		C9A5171B246B799200DEC73C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5171A246B799200DEC73C /* NetworkService.swift */; };
+		C9A5171D246B7B8600DEC73C /* NotificationIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5171C246B7B8600DEC73C /* NotificationIdentifiers.swift */; };
+		C9A51724246C9DAD00DEC73C /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A51722246C9DAD00DEC73C /* PlayerViewController.swift */; };
+		C9A51725246C9DAD00DEC73C /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A51723246C9DAD00DEC73C /* PlayerViewController.xib */; };
+		C9A5172B246CB5CE00DEC73C /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A51729246CB5CE00DEC73C /* WebViewController.swift */; };
+		C9A5172C246CB5CE00DEC73C /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A5172A246CB5CE00DEC73C /* WebViewController.xib */; };
+		C9A51730246D56E500DEC73C /* OurInitiativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5172E246D56E500DEC73C /* OurInitiativeViewController.swift */; };
+		C9A51731246D56E500DEC73C /* OurInitiativeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A5172F246D56E500DEC73C /* OurInitiativeViewController.xib */; };
+		C9A51735246D951700DEC73C /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A51733246D951700DEC73C /* AboutUsViewController.swift */; };
+		C9A51736246D951700DEC73C /* AboutUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A51734246D951700DEC73C /* AboutUsViewController.xib */; };
+		C9A517382470C9CA00DEC73C /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9A517372470C9CA00DEC73C /* song.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C917A25924697DCC0060B455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C917A23A24697DCC0060B455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C917A24124697DCC0060B455;
+			remoteInfo = Quran247;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A53D9EB56AF58093FCDDCA7 /* Pods-Quran247.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quran247.release.xcconfig"; path = "Target Support Files/Pods-Quran247/Pods-Quran247.release.xcconfig"; sourceTree = "<group>"; };
+		41C9C4BF416539C8747467D1 /* Pods_Quran247Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quran247Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		525BC5DCD90C59308B95A684 /* Pods_Quran247.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quran247.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0D04A4EFB409886516EEB6 /* Pods-Quran247Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quran247Tests.debug.xcconfig"; path = "Target Support Files/Pods-Quran247Tests/Pods-Quran247Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B85D5602D81237DAB37E659A /* Pods-Quran247Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quran247Tests.release.xcconfig"; path = "Target Support Files/Pods-Quran247Tests/Pods-Quran247Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C906B7F22471ABF7003817A8 /* BaseFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFile.swift; sourceTree = "<group>"; };
+		C917A24224697DCC0060B455 /* Quran247.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quran247.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C917A24524697DCC0060B455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C917A24724697DCC0060B455 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C917A24924697DCC0060B455 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C917A24C24697DCC0060B455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C917A24E24697DCC0060B455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C917A25124697DCC0060B455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C917A25324697DCC0060B455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C917A25824697DCC0060B455 /* Quran247Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quran247Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C917A25C24697DCC0060B455 /* Quran247Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quran247Tests.swift; sourceTree = "<group>"; };
+		C917A25E24697DCC0060B455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A516D3246A0A8300DEC73C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		C9A516D8246A190E00DEC73C /* SideMenuTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTransition.swift; sourceTree = "<group>"; };
+		C9A51712246B780A00DEC73C /* MainViewReciterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewReciterCell.swift; sourceTree = "<group>"; };
+		C9A51713246B780A00DEC73C /* MainViewReciterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewReciterCell.xib; sourceTree = "<group>"; };
+		C9A51717246B792F00DEC73C /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		C9A5171A246B799200DEC73C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		C9A5171C246B7B8600DEC73C /* NotificationIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationIdentifiers.swift; sourceTree = "<group>"; };
+		C9A51722246C9DAD00DEC73C /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		C9A51723246C9DAD00DEC73C /* PlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
+		C9A51729246CB5CE00DEC73C /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		C9A5172A246CB5CE00DEC73C /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		C9A5172E246D56E500DEC73C /* OurInitiativeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurInitiativeViewController.swift; sourceTree = "<group>"; };
+		C9A5172F246D56E500DEC73C /* OurInitiativeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OurInitiativeViewController.xib; sourceTree = "<group>"; };
+		C9A51733246D951700DEC73C /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		C9A51734246D951700DEC73C /* AboutUsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutUsViewController.xib; sourceTree = "<group>"; };
+		C9A517372470C9CA00DEC73C /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song.mp3; path = "../../../../Downloads/AudioPlayer-master/song.mp3"; sourceTree = "<group>"; };
+		EDF64E465F335B7671D84D77 /* Pods-Quran247.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quran247.debug.xcconfig"; path = "Target Support Files/Pods-Quran247/Pods-Quran247.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C917A23F24697DCC0060B455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9230E1F1CDD3C2BD1444E381 /* Pods_Quran247.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C917A25524697DCC0060B455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4A2162D093093F6C16B88C /* Pods_Quran247Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C917A23924697DCC0060B455 = {
+			isa = PBXGroup;
+			children = (
+				C917A24424697DCC0060B455 /* Quran247 */,
+				C917A25B24697DCC0060B455 /* Quran247Tests */,
+				C917A24324697DCC0060B455 /* Products */,
+				D133C046F9A510034FB190E6 /* Pods */,
+				CEC51DD080696DED41781115 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C917A24324697DCC0060B455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C917A24224697DCC0060B455 /* Quran247.app */,
+				C917A25824697DCC0060B455 /* Quran247Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C917A24424697DCC0060B455 /* Quran247 */ = {
+			isa = PBXGroup;
+			children = (
+				C9A51719246B794D00DEC73C /* NetworkService */,
+				C9A516D7246A18D900DEC73C /* shared */,
+				C9A516D02469F70B00DEC73C /* ViewControllers */,
+				C917A24524697DCC0060B455 /* AppDelegate.swift */,
+				C9A517372470C9CA00DEC73C /* song.mp3 */,
+				C917A24924697DCC0060B455 /* ViewController.swift */,
+				C917A24724697DCC0060B455 /* SceneDelegate.swift */,
+				C917A24B24697DCC0060B455 /* Main.storyboard */,
+				C917A24E24697DCC0060B455 /* Assets.xcassets */,
+				C917A25024697DCC0060B455 /* LaunchScreen.storyboard */,
+				C917A25324697DCC0060B455 /* Info.plist */,
+			);
+			path = Quran247;
+			sourceTree = "<group>";
+		};
+		C917A25B24697DCC0060B455 /* Quran247Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C917A25C24697DCC0060B455 /* Quran247Tests.swift */,
+				C917A25E24697DCC0060B455 /* Info.plist */,
+			);
+			path = Quran247Tests;
+			sourceTree = "<group>";
+		};
+		C9A516D02469F70B00DEC73C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9A51732246D94F000DEC73C /* AboutUsViewController */,
+				C9A5172D246D56AF00DEC73C /* OurInitiativeViewController */,
+				C9A51726246CB51B00DEC73C /* WebViewController */,
+				C9A51721246C9D7F00DEC73C /* PlayerViewController */,
+				C9A516D2246A0A2B00DEC73C /* MenuViewController */,
+				C9A516D12469F7E200DEC73C /* MainViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C9A516D12469F7E200DEC73C /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9A51712246B780A00DEC73C /* MainViewReciterCell.swift */,
+				C9A51713246B780A00DEC73C /* MainViewReciterCell.xib */,
+				C9A51717246B792F00DEC73C /* MainViewModel.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		C9A516D2246A0A2B00DEC73C /* MenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9A516D3246A0A8300DEC73C /* MenuViewController.swift */,
+			);
+			path = MenuViewController;
+			sourceTree = "<group>";
+		};
+		C9A516D7246A18D900DEC73C /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				C9A516D8246A190E00DEC73C /* SideMenuTransition.swift */,
+				C9A5171C246B7B8600DEC73C /* NotificationIdentifiers.swift */,
+				C906B7F22471ABF7003817A8 /* BaseFile.swift */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		C9A51719246B794D00DEC73C /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				C9A5171A246B799200DEC73C /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		C9A51721246C9D7F00DEC73C /* PlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9A51722246C9DAD00DEC73C /* PlayerViewController.swift */,
+				C9A51723246C9DAD00DEC73C /* PlayerViewController.xib */,
+			);
+			path = PlayerViewController;
+			sourceTree = "<group>";
+		};
+		C9A51726246CB51B00DEC73C /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9A51729246CB5CE00DEC73C /* WebViewController.swift */,
+				C9A5172A246CB5CE00DEC73C /* WebViewController.xib */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		C9A5172D246D56AF00DEC73C /* OurInitiativeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9A5172E246D56E500DEC73C /* OurInitiativeViewController.swift */,
+				C9A5172F246D56E500DEC73C /* OurInitiativeViewController.xib */,
+			);
+			path = OurInitiativeViewController;
+			sourceTree = "<group>";
+		};
+		C9A51732246D94F000DEC73C /* AboutUsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9A51733246D951700DEC73C /* AboutUsViewController.swift */,
+				C9A51734246D951700DEC73C /* AboutUsViewController.xib */,
+			);
+			path = AboutUsViewController;
+			sourceTree = "<group>";
+		};
+		CEC51DD080696DED41781115 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				525BC5DCD90C59308B95A684 /* Pods_Quran247.framework */,
+				41C9C4BF416539C8747467D1 /* Pods_Quran247Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D133C046F9A510034FB190E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDF64E465F335B7671D84D77 /* Pods-Quran247.debug.xcconfig */,
+				1A53D9EB56AF58093FCDDCA7 /* Pods-Quran247.release.xcconfig */,
+				5C0D04A4EFB409886516EEB6 /* Pods-Quran247Tests.debug.xcconfig */,
+				B85D5602D81237DAB37E659A /* Pods-Quran247Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C917A24124697DCC0060B455 /* Quran247 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C917A26124697DCC0060B455 /* Build configuration list for PBXNativeTarget "Quran247" */;
+			buildPhases = (
+				40517D2EF2ECF386C5963C1B /* [CP] Check Pods Manifest.lock */,
+				C917A23E24697DCC0060B455 /* Sources */,
+				C917A23F24697DCC0060B455 /* Frameworks */,
+				C917A24024697DCC0060B455 /* Resources */,
+				8CFC76D103EC8C7B3CF6873F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quran247;
+			productName = Quran247;
+			productReference = C917A24224697DCC0060B455 /* Quran247.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C917A25724697DCC0060B455 /* Quran247Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C917A26424697DCC0060B455 /* Build configuration list for PBXNativeTarget "Quran247Tests" */;
+			buildPhases = (
+				9540D45B280B86AC488E220B /* [CP] Check Pods Manifest.lock */,
+				C917A25424697DCC0060B455 /* Sources */,
+				C917A25524697DCC0060B455 /* Frameworks */,
+				C917A25624697DCC0060B455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C917A25A24697DCC0060B455 /* PBXTargetDependency */,
+			);
+			name = Quran247Tests;
+			productName = Quran247Tests;
+			productReference = C917A25824697DCC0060B455 /* Quran247Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C917A23A24697DCC0060B455 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Dawah Nigeria";
+				TargetAttributes = {
+					C917A24124697DCC0060B455 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C917A25724697DCC0060B455 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C917A24124697DCC0060B455;
+					};
+				};
+			};
+			buildConfigurationList = C917A23D24697DCC0060B455 /* Build configuration list for PBXProject "Quran247" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C917A23924697DCC0060B455;
+			productRefGroup = C917A24324697DCC0060B455 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C917A24124697DCC0060B455 /* Quran247 */,
+				C917A25724697DCC0060B455 /* Quran247Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C917A24024697DCC0060B455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C917A25224697DCC0060B455 /* LaunchScreen.storyboard in Resources */,
+				C9A51725246C9DAD00DEC73C /* PlayerViewController.xib in Resources */,
+				C9A517382470C9CA00DEC73C /* song.mp3 in Resources */,
+				C917A24F24697DCC0060B455 /* Assets.xcassets in Resources */,
+				C9A5172C246CB5CE00DEC73C /* WebViewController.xib in Resources */,
+				C9A51736246D951700DEC73C /* AboutUsViewController.xib in Resources */,
+				C9A51731246D56E500DEC73C /* OurInitiativeViewController.xib in Resources */,
+				C9A51715246B780A00DEC73C /* MainViewReciterCell.xib in Resources */,
+				C917A24D24697DCC0060B455 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C917A25624697DCC0060B455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40517D2EF2ECF386C5963C1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quran247-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CFC76D103EC8C7B3CF6873F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quran247/Pods-Quran247-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quran247/Pods-Quran247-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quran247/Pods-Quran247-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9540D45B280B86AC488E220B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quran247Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C917A23E24697DCC0060B455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C906B7F32471ABF7003817A8 /* BaseFile.swift in Sources */,
+				C917A24A24697DCC0060B455 /* ViewController.swift in Sources */,
+				C9A51735246D951700DEC73C /* AboutUsViewController.swift in Sources */,
+				C9A5172B246CB5CE00DEC73C /* WebViewController.swift in Sources */,
+				C9A51718246B792F00DEC73C /* MainViewModel.swift in Sources */,
+				C9A5171B246B799200DEC73C /* NetworkService.swift in Sources */,
+				C917A24624697DCC0060B455 /* AppDelegate.swift in Sources */,
+				C917A24824697DCC0060B455 /* SceneDelegate.swift in Sources */,
+				C9A5171D246B7B8600DEC73C /* NotificationIdentifiers.swift in Sources */,
+				C9A516D5246A0A8300DEC73C /* MenuViewController.swift in Sources */,
+				C9A51714246B780A00DEC73C /* MainViewReciterCell.swift in Sources */,
+				C9A51730246D56E500DEC73C /* OurInitiativeViewController.swift in Sources */,
+				C9A516D9246A190E00DEC73C /* SideMenuTransition.swift in Sources */,
+				C9A51724246C9DAD00DEC73C /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C917A25424697DCC0060B455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C917A25D24697DCC0060B455 /* Quran247Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C917A25A24697DCC0060B455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C917A24124697DCC0060B455 /* Quran247 */;
+			targetProxy = C917A25924697DCC0060B455 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C917A24B24697DCC0060B455 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C917A24C24697DCC0060B455 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C917A25024697DCC0060B455 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C917A25124697DCC0060B455 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C917A25F24697DCC0060B455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C917A26024697DCC0060B455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C917A26224697DCC0060B455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF64E465F335B7671D84D77 /* Pods-Quran247.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMF3PS99LM;
+				INFOPLIST_FILE = Quran247/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dawahNigeria.Quran247;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C917A26324697DCC0060B455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A53D9EB56AF58093FCDDCA7 /* Pods-Quran247.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMF3PS99LM;
+				INFOPLIST_FILE = Quran247/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dawahNigeria.Quran247;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C917A26524697DCC0060B455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C0D04A4EFB409886516EEB6 /* Pods-Quran247Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C35WAJESWR;
+				INFOPLIST_FILE = Quran247Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dawahNigeria.Quran247Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quran247.app/Quran247";
+			};
+			name = Debug;
+		};
+		C917A26624697DCC0060B455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85D5602D81237DAB37E659A /* Pods-Quran247Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C35WAJESWR;
+				INFOPLIST_FILE = Quran247Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dawahNigeria.Quran247Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quran247.app/Quran247";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C917A23D24697DCC0060B455 /* Build configuration list for PBXProject "Quran247" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C917A25F24697DCC0060B455 /* Debug */,
+				C917A26024697DCC0060B455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C917A26124697DCC0060B455 /* Build configuration list for PBXNativeTarget "Quran247" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C917A26224697DCC0060B455 /* Debug */,
+				C917A26324697DCC0060B455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C917A26424697DCC0060B455 /* Build configuration list for PBXNativeTarget "Quran247Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C917A26524697DCC0060B455 /* Debug */,
+				C917A26624697DCC0060B455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C917A23A24697DCC0060B455 /* Project object */;
+}
